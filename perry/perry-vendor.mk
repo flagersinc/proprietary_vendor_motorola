@@ -13,6 +13,7 @@
 # limitations under the License.
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/perry/proprietary/bin/etsd:system/bin/etsd \
     vendor/motorola/perry/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/perry/proprietary/etc/acdbdata/Bluetooth_cal.acdb:system/etc/acdbdata/Bluetooth_cal.acdb \
     vendor/motorola/perry/proprietary/etc/acdbdata/General_cal.acdb:system/etc/acdbdata/General_cal.acdb \
@@ -30,6 +31,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/perry/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/motorola/perry/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
+    vendor/motorola/perry/proprietary/lib/libets_dclient.so:system/lib/libets_dclient.so \
     vendor/motorola/perry/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/motorola/perry/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/perry/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
