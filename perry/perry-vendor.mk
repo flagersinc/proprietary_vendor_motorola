@@ -32,6 +32,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/motorola/perry/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/perry/proprietary/lib/libets_dclient.so:system/lib/libets_dclient.so \
+    vendor/motorola/perry/proprietary/lib/libets_fp.so:system/lib/libets_fp.so \
+    vendor/motorola/perry/proprietary/lib/libets_teeclient.so:system/lib/libets_teeclient.so \
     vendor/motorola/perry/proprietary/lib/libfamily_photo.so:system/lib/libfamily_photo.so \
     vendor/motorola/perry/proprietary/lib/libjscore.so:system/lib/libjscore.so \
     vendor/motorola/perry/proprietary/lib/libjustshoot.so:system/lib/libjustshoot.so \
