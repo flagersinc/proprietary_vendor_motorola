@@ -102,6 +102,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/motorola/qcom318-32/proprietary/lib/libmbs.so:system/lib/libmbs.so \
     vendor/motorola/qcom318-32/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
+    vendor/motorola/qcom318-32/proprietary/lib/libmodmanager.so:system/lib/libmodmanager.so \
     vendor/motorola/qcom318-32/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/qcom318-32/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
     vendor/motorola/qcom318-32/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \

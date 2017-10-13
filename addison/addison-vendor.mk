@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/addison/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/motorola/addison/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/motorola/addison/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
-    vendor/motorola/addison/proprietary/lib/libmodmanager.so:system/lib/libmodmanager.so \
     vendor/motorola/addison/proprietary/lib/libmorpho_image_stabilizer4.so:system/lib/libmorpho_image_stabilizer4.so \
     vendor/motorola/addison/proprietary/lib/libmot-qc-fd-offline.so:system/lib/libmot-qc-fd-offline.so \
     vendor/motorola/addison/proprietary/lib/libmot_afd.so:system/lib/libmot_afd.so \
