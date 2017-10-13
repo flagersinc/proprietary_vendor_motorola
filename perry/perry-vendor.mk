@@ -45,11 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/lib/libmotimager_utils.so:system/lib/libmotimager_utils.so \
     vendor/motorola/perry/proprietary/lib/libzxingcpp.so:system/lib/libzxingcpp.so \
     vendor/motorola/perry/proprietary/vendor/lib/libactuator_dw9718s.so:system/vendor/lib/libactuator_dw9718s.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libactuator_dw9763.so:system/vendor/lib/libactuator_dw9763.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libactuator_dw9767.so:system/vendor/lib/libactuator_dw9767.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libactuator_lc898217xc.so:system/vendor/lib/libactuator_lc898217xc.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libactuator_mot_ak7371.so:system/vendor/lib/libactuator_mot_ak7371.so \
-    vendor/motorola/perry/proprietary/vendor/lib/libactuator_pseudo.so:system/vendor/lib/libactuator_pseudo.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx219_common.so:system/vendor/lib/libchromatix_imx219_common.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx219_cpp_hfr_120.so:system/vendor/lib/libchromatix_imx219_cpp_hfr_120.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx219_cpp_liveshot.so:system/vendor/lib/libchromatix_imx219_cpp_liveshot.so \
