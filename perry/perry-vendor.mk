@@ -58,6 +58,27 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx219_video_full.so:system/vendor/lib/libchromatix_imx219_video_full.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx219_zsl_preview_3a.so:system/vendor/lib/libchromatix_imx219_zsl_preview_3a.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_imx219_zsl_video_3a.so:system/vendor/lib/libchromatix_imx219_zsl_video_3a.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_common.so:system/vendor/lib/libchromatix_mot_ov5695_common.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_cpp_hfr_120.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_ov5695_cpp_liveshot.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_cpp_snapshot.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_cpp_video.so:system/vendor/lib/libchromatix_mot_ov5695_cpp_video.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video.so:system/vendor/lib/libchromatix_mot_ov5695_default_video.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_default_video_3a.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120.so:system/vendor/lib/libchromatix_mot_ov5695_hfr_120.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_hfr_120_3a.so:system/vendor/lib/libchromatix_mot_ov5695_hfr_120_3a.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_common.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_common.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_liveshot.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_liveshot.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_snapshot.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_video.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_cpp_video.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_default_video.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_default_video.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_default_video_3a.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_default_video_3a.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_postproc.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_l5695fa0_snapshot_3a.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_postproc.so:system/vendor/lib/libchromatix_mot_ov5695_postproc.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot.so:system/vendor/lib/libchromatix_mot_ov5695_snapshot.so \
+    vendor/motorola/perry/proprietary/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so:system/vendor/lib/libchromatix_mot_ov5695_snapshot_3a.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k4h8_common.so:system/vendor/lib/libchromatix_s5k4h8_common.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so:system/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so \
     vendor/motorola/perry/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so \
