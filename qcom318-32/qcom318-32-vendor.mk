@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/qcom318-32/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/qcom318-32/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/motorola/qcom318-32/proprietary/bin/msm_irqbalance:system/bin/msm_irqbalance \
     vendor/motorola/qcom318-32/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/qcom318-32/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/motorola/qcom318-32/proprietary/bin/pm-service:system/bin/pm-service \
@@ -81,6 +82,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/etc/gps.conf:system/etc/gps.conf \
     vendor/motorola/qcom318-32/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/motorola/qcom318-32/proprietary/etc/lowi.conf:system/etc/lowi.conf \
+    vendor/motorola/qcom318-32/proprietary/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/motorola/qcom318-32/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/motorola/qcom318-32/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/motorola/qcom318-32/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
@@ -96,6 +98,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/qcom318-32/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/qcom318-32/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
+    vendor/motorola/qcom318-32/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/motorola/qcom318-32/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/motorola/qcom318-32/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/qcom318-32/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -112,7 +115,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/motorola/qcom318-32/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/qcom318-32/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/motorola/qcom318-32/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/motorola/qcom318-32/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
@@ -334,4 +339,5 @@ PRODUCT_PACKAGES += \
     imscmlibrary \
     izat.xt.srv \
     qcrilhook \
-    qti-telephony-common
+    qti-telephony-common \
+    qti-vzw-ims-internal

@@ -24,12 +24,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/owens/proprietary/etc/acdbdata/Speaker_cal.acdb:system/etc/acdbdata/Speaker_cal.acdb \
     vendor/motorola/owens/proprietary/etc/firmware/focaltech-boe-ft5436-04-0001-owens.bin:system/etc/firmware/focaltech-boe-ft5436-04-0001-owens.bin \
     vendor/motorola/owens/proprietary/etc/firmware/focaltech-inx-ft5436-02-0001-owens.bin:system/etc/firmware/focaltech-inx-ft5436-02-0001-owens.bin \
-    vendor/motorola/owens/proprietary/lib/hw/camera.msm8937.so:system/lib/hw/camera.msm8937.so \
+    vendor/motorola/owens/proprietary/lib/hw/camera.vendor.msm8937.so:system/lib/hw/camera.vendor.msm8937.so \
     vendor/motorola/owens/proprietary/lib/hw/fingerprint.msm8937.so:system/lib/hw/fingerprint.msm8937.so \
     vendor/motorola/owens/proprietary/lib/hw/sensors.msm8937.so:system/lib/hw/sensors.msm8937.so \
     vendor/motorola/owens/proprietary/lib/lib_mot_app6_metadata.so:system/lib/lib_mot_app6_metadata.so \
     vendor/motorola/owens/proprietary/lib/libadvalgcore.so:system/lib/libadvalgcore.so \
     vendor/motorola/owens/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
+    vendor/motorola/owens/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/motorola/owens/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
     vendor/motorola/owens/proprietary/lib/libets_dclient.so:system/lib/libets_dclient.so \
     vendor/motorola/owens/proprietary/lib/libets_fp.so:system/lib/libets_fp.so \
