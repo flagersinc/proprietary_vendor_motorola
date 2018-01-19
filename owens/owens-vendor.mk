@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/owens/proprietary/lib/libarcsoft_beautyshot.so:system/lib/libarcsoft_beautyshot.so \
     vendor/motorola/owens/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/motorola/owens/proprietary/lib/libcamerabgprocservice.so:system/lib/libcamerabgprocservice.so \
+    vendor/motorola/owens/proprietary/lib/libdesense.so:system/lib/libdesense.so \
     vendor/motorola/owens/proprietary/lib/libets_dclient.so:system/lib/libets_dclient.so \
     vendor/motorola/owens/proprietary/lib/libets_fp.so:system/lib/libets_fp.so \
     vendor/motorola/owens/proprietary/lib/libets_teeclient.so:system/lib/libets_teeclient.so \
