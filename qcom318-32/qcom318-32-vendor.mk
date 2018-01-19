@@ -217,6 +217,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libOmxAlacDecSw.so:system/vendor/lib/libOmxAlacDecSw.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libOmxApeDec.so:system/vendor/lib/libOmxApeDec.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libOmxApeDecSw.so:system/vendor/lib/libOmxApeDecSw.so \
+    vendor/motorola/qcom318-32/proprietary/vendor/lib/libOmxVdec.so:system/vendor/lib/libOmxVdec.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libOpenCL.so:system/vendor/lib/libOpenCL.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/liboptizoom.so:system/vendor/lib/liboptizoom.so \
