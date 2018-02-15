@@ -96,6 +96,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/qcom318-32/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/qcom318-32/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
+    vendor/motorola/qcom318-32/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/motorola/qcom318-32/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/motorola/qcom318-32/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/qcom318-32/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -112,6 +113,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/motorola/qcom318-32/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/motorola/qcom318-32/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
+    vendor/motorola/qcom318-32/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
@@ -335,4 +337,5 @@ PRODUCT_PACKAGES += \
     imscmlibrary \
     izat.xt.srv \
     qcrilhook \
-    qti-telephony-common
+    qti-telephony-common \
+    qti-vzw-ims-internal
