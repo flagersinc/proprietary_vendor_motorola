@@ -27,7 +27,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/qcom318-32/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/motorola/qcom318-32/proprietary/bin/pm-service:system/bin/pm-service \
+    vendor/motorola/qcom318-32/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/motorola/qcom318-32/proprietary/bin/qmi_motext_hook:system/bin/qmi_motext_hook \
+    vendor/motorola/qcom318-32/proprietary/bin/qmi_simple_ril_test:system/bin/qmi_simple_ril_test \
     vendor/motorola/qcom318-32/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/qcom318-32/proprietary/bin/radish:system/bin/radish \
     vendor/motorola/qcom318-32/proprietary/bin/rild:system/bin/rild \
@@ -96,7 +98,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/qcom318-32/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/qcom318-32/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
-    vendor/motorola/qcom318-32/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/motorola/qcom318-32/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/motorola/qcom318-32/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/qcom318-32/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
@@ -106,6 +107,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/lib/libmodmanager.so:system/lib/libmodmanager.so \
     vendor/motorola/qcom318-32/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/qcom318-32/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
+    vendor/motorola/qcom318-32/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
     vendor/motorola/qcom318-32/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/qcom318-32/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/qcom318-32/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -201,6 +203,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libmdsprpc.so:system/vendor/lib/libmdsprpc.so \
+    vendor/motorola/qcom318-32/proprietary/vendor/lib/libmmiipstreammmihttp.so:system/vendor/lib/libmmiipstreammmihttp.so \
+    vendor/motorola/qcom318-32/proprietary/vendor/lib/libmmipstreamnetwork.so:system/vendor/lib/libmmipstreamnetwork.so \
+    vendor/motorola/qcom318-32/proprietary/vendor/lib/libmmipstreamsourcehttp.so:system/vendor/lib/libmmipstreamsourcehttp.so \
+    vendor/motorola/qcom318-32/proprietary/vendor/lib/libmmipstreamutils.so:system/vendor/lib/libmmipstreamutils.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libmmsw_detail_enhancement.so:system/vendor/lib/libmmsw_detail_enhancement.so \
@@ -233,6 +239,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/motorola/qcom318-32/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
+    vendor/motorola/qcom318-32/proprietary/vendor/lib/libqti-at.so:system/vendor/lib/libqti-at.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
@@ -336,6 +344,10 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne \
     imscmlibrary \
     izat.xt.srv \
+    qcom.fmradio \
     qcrilhook \
+    qmapbridge \
+    QPerformance \
     qti-telephony-common \
-    qti-vzw-ims-internal
+    rcsimssettings \
+    rcsservice
