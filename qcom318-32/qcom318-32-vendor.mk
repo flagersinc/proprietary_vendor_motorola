@@ -14,8 +14,13 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/bin/adsprpcd:system/bin/adsprpcd \
+    vendor/motorola/qcom318-32/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/qcom318-32/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/motorola/qcom318-32/proprietary/bin/cnd:system/bin/cnd \
+    vendor/motorola/qcom318-32/proprietary/bin/cnss_diag:system/bin/cnss_diag \
+    vendor/motorola/qcom318-32/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
+    vendor/motorola/qcom318-32/proprietary/bin/dun-server:system/bin/dun-server \
+    vendor/motorola/qcom318-32/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/motorola/qcom318-32/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/qcom318-32/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/motorola/qcom318-32/proprietary/bin/imscmservice:system/bin/imscmservice \
@@ -24,6 +29,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/motorola/qcom318-32/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/motorola/qcom318-32/proprietary/bin/loc_launcher:system/bin/loc_launcher \
+    vendor/motorola/qcom318-32/proprietary/bin/motobox:system/bin/motobox \
     vendor/motorola/qcom318-32/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/motorola/qcom318-32/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/motorola/qcom318-32/proprietary/bin/pm-service:system/bin/pm-service \
@@ -84,6 +90,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/etc/izat.conf:system/etc/izat.conf \
     vendor/motorola/qcom318-32/proprietary/etc/lowi.conf:system/etc/lowi.conf \
     vendor/motorola/qcom318-32/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
+    vendor/motorola/qcom318-32/proprietary/etc/permissions/com.motorola.android.settings.shared.xml:system/etc/permissions/com.motorola.android.settings.shared.xml \
+    vendor/motorola/qcom318-32/proprietary/etc/permissions/com.motorola.frameworks.core.addon.xml:system/etc/permissions/com.motorola.frameworks.core.addon.xml \
     vendor/motorola/qcom318-32/proprietary/etc/permissions/com.qti.location.sdk.xml:system/etc/permissions/com.qti.location.sdk.xml \
     vendor/motorola/qcom318-32/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
     vendor/motorola/qcom318-32/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
@@ -95,11 +103,20 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/motorola/qcom318-32/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/qcom318-32/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
+    vendor/motorola/qcom318-32/proprietary/etc/permissions/rcsimssettings.xml:system/etc/permissions/rcsimssettings.xml \
+    vendor/motorola/qcom318-32/proprietary/etc/permissions/rcsservice.xml:system/etc/permissions/rcsservice.xml \
+    vendor/motorola/qcom318-32/proprietary/etc/permissions/rcs_service_aidl.xml:system/etc/permissions/rcs_service_aidl.xml \
+    vendor/motorola/qcom318-32/proprietary/etc/permissions/rcs_service_api.xml:system/etc/permissions/rcs_service_api.xml \
     vendor/motorola/qcom318-32/proprietary/etc/sap.conf:system/etc/sap.conf \
     vendor/motorola/qcom318-32/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/motorola/qcom318-32/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
+    vendor/motorola/qcom318-32/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/motorola/qcom318-32/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
     vendor/motorola/qcom318-32/proprietary/lib/lib_motsensorlistener.so:system/lib/lib_motsensorlistener.so \
     vendor/motorola/qcom318-32/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
+    vendor/motorola/qcom318-32/proprietary/lib/libdmengine.so:system/lib/libdmengine.so \
+    vendor/motorola/qcom318-32/proprietary/lib/libdmjavaplugin.so:system/lib/libdmjavaplugin.so \
+    vendor/motorola/qcom318-32/proprietary/lib/libfilterpack_facedetect.so:system/lib/libfilterpack_facedetect.so \
     vendor/motorola/qcom318-32/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/motorola/qcom318-32/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/motorola/qcom318-32/proprietary/lib/libmbs.so:system/lib/libmbs.so \
@@ -107,7 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/lib/libmodmanager.so:system/lib/libmodmanager.so \
     vendor/motorola/qcom318-32/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/motorola/qcom318-32/proprietary/lib/libmpbase.so:system/lib/libmpbase.so \
-    vendor/motorola/qcom318-32/proprietary/lib/libqcomfm_jni.so:system/lib/libqcomfm_jni.so \
+    vendor/motorola/qcom318-32/proprietary/lib/libprovlib.so:system/lib/libprovlib.so \
     vendor/motorola/qcom318-32/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/motorola/qcom318-32/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/motorola/qcom318-32/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
@@ -117,6 +134,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/vendor/firmware/libpn548ad_fw.so:system/vendor/firmware/libpn548ad_fw.so \
     vendor/motorola/qcom318-32/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
+    vendor/motorola/qcom318-32/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/lib-ims-rcscmjni.so:system/vendor/lib/lib-ims-rcscmjni.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/motorola/qcom318-32/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
@@ -325,7 +343,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libril \
-    QtiTelephonyService \
     TimeService \
     datastatusnotification \
     CNEService \
@@ -335,19 +352,38 @@ PRODUCT_PACKAGES += \
     colorservice \
     ims \
     imssettings \
-    ConnectivityExt \
-    QtiTelephonyServicelibrary \
+    imscmlibrary \
+    qcrilhook \
+    AttPhoneExt \
+    CarrierServices \
+    CarrierSettingsExt \
+    ConnMO \
+    CoreSettingsExt \
+    DCMO \
+    DiagMon \
+    DMService \
+    atfwd \
+    SprintDM \
+    DMConfigUpdateLight \
+    RcsImsBootstraputil \
+    RCSBootstraputil \
     cneapiclient \
+    com.motorola.android.dropboxhelper \
+    com.motorola.android.settings.shared \
+    com.motorola.frameworks.core.addon \
+    com.qti.dpmframework \
     com.qti.location.sdk \
     com.qti.snapdragon.sdk.display \
     com.qualcomm.location.vzw_library \
     com.quicinc.cne \
-    imscmlibrary \
+    ConnectivityExt \
+    dpmapi \
+    embmslibrary \
     izat.xt.srv \
-    qcom.fmradio \
-    qcrilhook \
     qmapbridge \
     QPerformance \
     qti-telephony-common \
     rcsimssettings \
-    rcsservice
+    rcsservice \
+    rcs_service_aidl \
+    rcs_service_api
