@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/qcom318-32/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/motorola/qcom318-32/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/motorola/qcom318-32/proprietary/bin/dun-server:system/bin/dun-server \
+    vendor/motorola/qcom318-32/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/motorola/qcom318-32/proprietary/bin/gpsone_daemon:system/bin/gpsone_daemon \
     vendor/motorola/qcom318-32/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/motorola/qcom318-32/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
@@ -354,19 +355,11 @@ PRODUCT_PACKAGES += \
     imssettings \
     imscmlibrary \
     qcrilhook \
-    AttPhoneExt \
-    CarrierServices \
-    CarrierSettingsExt \
     ConnMO \
-    CoreSettingsExt \
     DCMO \
-    DiagMon \
     DMService \
     atfwd \
     SprintDM \
-    DMConfigUpdateLight \
-    RcsImsBootstraputil \
-    RCSBootstraputil \
     cneapiclient \
     com.motorola.android.dropboxhelper \
     com.motorola.android.settings.shared \
